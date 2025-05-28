@@ -4,7 +4,7 @@ A web-based tool to visualize how a **Least Recently Used (LRU) Cache** works. T
 
 ## 🚀 Live Demo
 
-🔗 [View the live project here](https://samathamarri.github.io/lru-cache-visualizer)
+🔗 [View the live project here](https://SAMATHAMARRI.github.io/LRU-Cache-Visualizer)
 
 
 
