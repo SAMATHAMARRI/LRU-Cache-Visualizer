@@ -12,13 +12,13 @@ A web-based tool to visualize how a **Least Recently Used (LRU) Cache** works. T
 
 ## 🛠️ Features
 
-- ✅ Set a custom cache **capacity**.
-- 🧠 Add and access **key-value pairs** with real-time feedback.
-- 🔗 Visualizes the cache as a **doubly linked list**.
-- 🚨 Highlights:
-  - **Yellow** – Updated or recently accessed nodes.
-  - **Red** – Evicted nodes when capacity is full.
-- 📱 Fully **responsive UI** for all screen sizes.
+-  Set a custom cache **capacity**.
+-  Add and access **key-value pairs** with real-time feedback.
+-  Visualizes the cache as a **doubly linked list**.
+-  Highlights:
+- **Yellow** – Updated or recently accessed nodes.
+- **Red** – Evicted nodes when capacity is full.
+- Fully **responsive UI** for all screen sizes.
 
 ---
 
