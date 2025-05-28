@@ -35,7 +35,7 @@ A web-based tool to visualize how a **Least Recently Used (LRU) Cache** works. T
 *(Add screenshots here if you'd like)*  
 Example:
 
-![LRU Cache Visualizer Screenshot]("C:\Users\samatha marri\OneDrive\Pictures\Screenshots\Screenshot 2025-05-28 205908.png")
+![LRU Cache Visualizer Screenshot](image.png")
 
 ---
 
