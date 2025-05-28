@@ -1,0 +1,128 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.capacity-control {
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+input {
+  background: #f1f1f1;
+  color: #333;
+  min-width: 140px;
+}
+
+button {
+  background-color: #00b894;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #008f74;
+}
+
+.cache-wrapper {
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.cache-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.cache-node {
+  background: #0984e3;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  white-space: nowrap;
+  flex-shrink: 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cache-node::after {
+  content: "→";
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}
+
+.cache-node:last-child::after {
+  display: none;
+}
+
+.highlight {
+  background-color: #fdcb6e !important;
+  color: #000;
+  transform: scale(1.1);
+}
+
+.removed {
+  background-color: #d63031 !important;
+}
+
+#message {
+  margin-top: 12px;
+  font-weight: bold;
+  min-height: 24px;
+  color: #55efc4;
+}
+
+@media (max-width: 600px) {
+  .controls {
+    flex-direction: column;
+  }
+}
