@@ -32,15 +32,10 @@ A web-based tool to visualize how a **Least Recently Used (LRU) Cache** works. T
 
 ## 📸 Screenshots
 
-*(Add screenshots here if you'd like)*  
-Example:
-
 ![LRU Cache Visualizer Screenshot](image.png)
 
 ---
 
 ## 📂 How to Run Locally
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/lru-cache-visualizer.git
+   git clone https://github.com/SAMATHAMARRI/LRU-Cache-Visualizer.git
